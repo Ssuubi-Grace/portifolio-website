@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <div class="menu-icon">
+            <i class="fas fa-bars"></i>
+          </div>
+          <ul class="menu-items">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#skills">Skills</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="main">
+        <section id="home">
+          <div class="content">
+            <h1>👩‍💻Welcome to My Portfolio</h1>
+            <p class="intro">
+              <strong>Hello👋,</strong> <br />
+              <span class="my_name"> Grace</span> here. <br />
+              I am a front end software developer and graphic designer
+              passionate about creating user-friendly and innovative solutions.
+            </p>
+          </div>
+          <div class="image">
+            <img src="images/grace2.jpg" alt="Grace" class="profile_img" />
+          </div>
+        </section>
+
+        <ul class="middle">
+          <li>
+            <section id="about">
+              <h2>About Me</h2>
+              <p>
+                I have practical experience in developing web applications,
+                graphic designing and UI/UX designing. I am proficient in
+                programming languages such as c,c++,HTML, CSS, JavaScript, and
+                Python.
+              </p>
+              <h2>Tools</h2>
+              <ul class="tools">
+                <li>
+                  <img
+                    src="images/visual.png"
+                    alt="VS Code"
+                    class="tools-img"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="images/adobeps.jpeg"
+                    alt="Adobe Photoshop"
+                    class="tools-img"
+                  />
+                </li>
+                <li>
+                  <img src="images/figma,.png" alt="Figma" class="tools-img" />
+                </li>
+                <li>
+                  <img
+                    src="images/invision.png"
+                    alt="invision"
+                    class="tools-img"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="images/android-studio.png"
+                    alt="android studio"
+                    class="tools-img"
+                  />
+                </li>
+                <li>
+                  <img src="images/colaba.png" alt="colab" class="tools-img" />
+                </li>
+              </ul>
+            </section>
+          </li>
+          <li>
+            <section id="contact">
+              <h2>Contact Me</h2>
+              <p>
+                You can reach out to me via email at
+                <a href="mailto:hopeliz835@gmail.com" class="mail"
+                  >hopeliz835@gmail.com</a
+                >
+                or through the contact form below.
+              </p>
+
+              <form
+                id="contactForm"
+                method="post"
+                action="./back-office/treatments/contact-form.php"
+              >
+                <input
+                  type="text"
+                  name="fullname"
+                  placeholder="Your Name"
+                  class="form-input"
+                />
+                <br />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                  class="form-input"
+                /><br />
+
+                <input
+                  type="text"
+                  name="phone"
+                  placeholder="phone"
+                  class="form-input"
+                />
+                <br />
+                <input
+                  type="text"
+                  name="subject"
+                  placeholder="subject"
+                  class="form-input"
+                />
+                <br />
+
+                <textarea
+                  rows="10"
+                  name="message"
+                  placeholder="Your Message"
+                  class="form-input"
+                ></textarea
+                ><br />
+                <button type="submit" class="form-button">Send Message</button>
+              </form>
+            </section>
+          </li>
+        </ul>
+
+        <section id="work">
+          <h2>My Work</h2>
+
+          <p>
+            <strong>Here are some of the projects I have worked on:</strong>
+          </p>
+          <ul>
+            <li>
+              <h3 class="description">
+                Project 1: Online Library Management System
+              </h3>
+              <p>
+                I collaborated with a team to develop an online library
+                management system. My responsibilities included designing the
+                user interface, implementing the database structure and
+                intergrating key features such as book search, borrowing and
+                returning.👇 <br />
+                <a href="https://github.com/Ssuubi-Grace" class="github"
+                  ><img src="images/GitHub.png" alt="github" class="github"
+                /></a>
+              </p>
+            </li>
+            <li>
+              <h3 class="description">
+                Project 2: Website for National Service Scheme KIIT School of
+                Computer Applications
+              </h3>
+              <p>
+                As part of a group project, we created a website for the
+                National Service Scheme at KIIT School of Computer Applications.
+                I contributed to the front-end development, ensuring a
+                responsive design, and incorporating features like event
+                registration, volunteer management, news updates and updates
+                about upcoming events.👇
+                <br />
+                <a href="https://github.com/Ssuubi-Grace" class="github"
+                  ><img src="images/GitHub.png" alt="github" class="github"
+                /></a>
+              </p>
+            </li>
+            <li>
+              <h3 class="description">
+                Project 3: Personal Landing Page about Backyard Gardening
+              </h3>
+              <p>
+                I independently developed a personal landing page dedicated to
+                backyard gardening. The website showcases various gardening
+                benefits, and directs you to sites that guide you on how to get
+                started if you found interest in backyard gardening.👇
+                <br />
+                <a href="https://github.com/Ssuubi-Grace" class="github"
+                  ><img src="images/GitHub.png" alt="github" class="github"
+                /></a>
+              </p>
+            </li>
+          </ul>
+          <div class="project-images">
+            <a
+              href="https://www.figma.com/file/pUBuxwrLMbwJl2R64da6HG/Untitled?node-id=0%3A1&t=O2EKZhUjFUWbk5ke-1"
+            >
+              <img src="images/dashboard.png" alt="Project 1" class="project" />
+            </a>
+            <a href="project2.html">
+              <img src="images/Document.png" alt="Project 2" class="project" />
+            </a>
+            <a href="project3.html">
+              <img
+                src="images/Backyard-gardening.png"
+                alt="Project 3"
+                class="project"
+              />
+            </a>
+            <a href="index.html">
+              <img
+                src="images/comp_cardf.jpg"
+                alt="complementary card"
+                class="project"
+              />
+            </a>
+            <a href="index.html">
+              <img
+                src="images/frame (2).jpeg"
+                alt="photoframe"
+                class="project"
+              />
+            </a>
+            <a href="index.html">
+              <img
+                src="images/laton_institute.jpg"
+                alt="school"
+                class="project"
+              />
+            </a>
+          </div>
+        </section>
+
+        <section id="skills">
+          <h2>My Skills</h2>
+          <div class="skills-list">
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>C++</li>
+              <li>SQL</li>
+              <li>Linux</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <section id="social-media">
+          <h2 class="footer_head">Connect with Me</h2>
+          <ul class="social-icons">
+            <li>
+              <a href="https://www.facebook.com/ssuubi.grace/" target="_blank"
+                ><img src="images/FB.png" alt="Facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/muwonge_grace" target="_blank"
+                ><img src="/images/TW.png" alt="Twitter"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/ssuubi-grace-165381274/"
+                target="_blank"
+                ><img src="images/ln.png" alt="LinkedIn"
+              /></a>
+            </li>
+          </ul>
+        </section>
+        <button class="back-to-top" onclick="scrollToTop()">&#8593;</button>
+        <hr class="full-width-hr" />
+        <p class="copyright">&copy; Ssuubi Grace. All rights reserved.</p>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
